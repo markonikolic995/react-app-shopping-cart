@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-image: url(./backgroundIMG.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btnDefault {
+  width: 25%;
+  margin: 2.5%;
+  border: yellowgreen solid 1px;
+  background-color: lightgray;
+  color: black;
+  border-radius: 100%;
+  font-weight: bolder;
+}
+
+.btnActive {
+  width: 25%;
+  margin: 2.5%;
+  border: darkgoldenrod solid 1px;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  font-weight: bolder;
+}
+
+.btnActive:hover , .btnDefault:hover {
+  background-color: orange;
+  color: black;
+  font-weight: bolder;
+  border-color: orange;
+}
+
+.imageItem {
+  height: 150px;
+  width: 150px;
+}
+
+.item {
+  width: 30;
+  border:solid 1px yellowgreen;
+  height: 40%;
+  display:inline-block;
+  padding: 2%;
+  margin:1%;
+}
+
+.btnAddToCart {
+  color:white;
+  background-color: black;
+  font-weight: border;
+  margin-top: 15%;
+  width: 100%;
+}
+
+.btnAddToCart:hover{
+  background-color: orange;
+  color: black;
+  font-weight: bolder;
+}
+
+.itemName {
+  font-weight: bolder;
+  font-style: italic;
+  border-bottom: darkgoldenrod 2px solid;
+}
+
+.itemPrice {
+  margin-top: 4%;
+  font-weight: bolder;
+  background-color:yellowgreen;
+}
+
+.sizesDIV {
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 10%;
+}
+
+#pNumOfProducts{
+  color:black;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: bolder;
+}
+
+#cartDisplay {
+  background-color: white;
+  height: 70%;
+  width: 21%;
+  position: fixed;
+  color:black;
+  margin: 0;
+  border: solid 1px black;
+  border-radius: 3%;
+  font-size: 0.8em;
+  padding:0;
+}
+
+.cartLength{
+  color:yellow;
+  margin-left:30%;
+  display: inline-block;
+}
+
+.imgCartItem{
+  width: 40px;
+  height: 40px;
+  margin-left: 30%;
+  margin-top: 40%;
+}
+
+.padding-0{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nameCartItem {
+  text-align: center;
+  margin-top: 15%;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-left: 10%;
+}
+
+.priceCartItem {
+  margin-top: 100%;
+  font-weight: bolder;
+  margin-left: 10%;
+  color:orange;
+  position: absolute;
+}
+
+.cartRow{
+  padding-bottom: 2%;
+}
+
+.nameCartItem::after {
+  content: '';
+  background: gray;
+  position: absolute;
+  bottom:0%;
+  left: 25%;
+  height: 1px;
+  width: 100%;
+}
+
+.btnRemoveItem{
+  margin-top: 15%;
+  position: absolute;
+}
+
+.cartItem{
+  height: 80%;
+  border-bottom: 1px solid black;
+  overflow: scroll;
+}
+
+.totalPrice{
+  font-weight: bolder;
+  background-color: white;
+  margin-left: 8%;
+}
+
+.paragraphTotalPrice{
+  font-size: 1em;
+  background-color: orange;
+  margin-top: 5%;
+  color:darkblue;
+}
+
+.selectForm{
+  color:yellowgreen;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10%;
+  border:solid 2px yellowgreen;
+}
+
+.labelForm{
+  color:darkgreen;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.itemSize{
+  font-weight: bolder;
+  color:darkblue;
+  border-bottom: darkgoldenrod 2px solid;
+}
+
+.sizeCartItem{
+  color: darkblue;
+  text-align: center;
+}
+
+.buyActive{
+  position: absolute;
+  display: inline-block;
+  top:30%;
+  background-color: gray;
+  right:33%;
+  width: 35%;
+  height: 25%;
+  border:1px solid black;
+  border-radius: 5%;
+  color: orange;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.buyDisabled{
+  display: none;
+}
+
+.buyThanks{
+  font-size: 1.5em;
+  margin-top: 6%;
+}
+
+.buyCloseBtn{
+  margin-top:10%;
+  color:orange;
+  font-weight: bolder;
+  border:1px solid orange;
+  border-radius: 10px;
+}
+
+.cartButtons{
+  overflow: auto;
+  padding:0;
+  
+}
